@@ -1,0 +1,249 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+i{font-style: normal;}
+/*头部*/
+#index ,#zonghe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg.png) no-repeat;
+	background-size:100% 100%; ;
+	overflow: hidden;
+}
+.indexTop{width: 100%;height: 65px;line-height: 55px;background: url(../images/head_bg.png) no-repeat;background-size:100% 100%;;text-align: center;overflow: hidden;}
+.logo{
+	float: left;
+    width: 83px;
+    height: 33px;
+    margin-left: 10px;
+}
+.logo img{width: 100%; height: 100%;}
+.title { float: left; margin-left: 43%;}
+.headNav{float: right; overflow: hidden; font-size: 13px; line-height: 35px;}
+.headNav>div{float: left; margin: 0 10px; color: #99b6e9; width: 100px; height: 31px; line-height: 31px; padding-left: 14px;  cursor: pointer; background: url(../images/head_menu_bg.png)no-repeat; background-size: cover;}
+.headNav>.active{background: url(../images/head_menu_bg_sel.png)no-repeat;color: white;}
+.indexMain{width: 100%; height:93%;}
+/*数据大屏*/
+#sjdp {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg.png) no-repeat;
+	background-size:100% 100%; ;
+	-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.png',sizingMethod='scale');
+ 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.png',sizingMethod='scale');
+	overflow: hidden;
+}
+.sjdpMain{width: calc(100% - 114px);height: 100%;}
+.leftBar{float: left;width: 114px;height: 100%;padding-top: 115px;}
+
+/* .leftBar>div{margin: 10px;margin-left: 0px;width: 100%;height: 95px;line-height:95px;background: url(../images/menu_bgs.png) no-repeat;background-size:100% 100%;; background-position-x: -30px;cursor:pointer;} */
+.leftBar>div {width:88px;height:88px;color:#fff;text-align:center;margin:10px 0;cursor:pointer;}
+.leftBar>div span {display:block;margin:0px auto 0 auto;padding-top:40px;line-height:18px;}
+
+.leftBar .sczzNav {width:88px;height:88px;background:url(../images/menu/icon_chejian_n.png) no-repeat;}
+.leftBar .sczzNav.active,.leftBar .sczzNav:hover {background:url(../images/menu/icon_chejian_sel.png) no-repeat;}
+
+.leftBar .zlNav {background:url(../images/menu/icon_zhiliang_n.png) no-repeat;}
+.leftBar .zlNav.active,.leftBar .zlNav:hover {background:url(../images/menu/icon_zhiliang_sel.png) no-repeat;}
+
+.leftBar .cwNav {background:url(../images/menu/icon_caiwu_n.png) no-repeat;}
+.leftBar .cwNav.active,.leftBar .cwNav:hover {background:url(../images/menu/icon_caiwu_sel.png) no-repeat;}
+
+.leftBar .kjNav {background:url(../images/menu/icon_keyan_n.png) no-repeat;}
+.leftBar .kjNav.active,.leftBar .kjNav:hover {background:url(../images/menu/icon_keyan_sel.png) no-repeat;}
+
+.leftBar .rlNav {background:url(../images/menu/icon_renli_n.png) no-repeat;}
+.leftBar .rlNav.active,.leftBar .rlNav:hover {background:url(../images/menu/icon_renli_sel.png) no-repeat;}
+
+/*添加产线*/
+
+.leftBar .cxNav {background:url(../images/menu/icon_chejian_n.png) no-repeat;}
+.leftBar .cxNav.active,.leftBar .cxNav:hover {background:url(../images/menu/icon_chejian_sel.png) no-repeat;}
+
+
+.leftBar>.active>img{float: left;  margin-left: 28px; width: 30px; margin-top: 30px;}
+.leftBar>div>img{margin-left: 8px;width: 30px;display:none;}
+
+
+
+
+
+#sczz>div{
+  	
+}
+.leftBar>div>div{display: none;}
+.leftBar>.active>div{writing-mode: lr-tb;
+    margin: 0;
+    margin-top: 26px;
+    margin-left: 24px;
+    line-height: 15px;float:left;display:block;color:#fff;}
+.main{
+    float: left;
+    width: 93%;
+    height: 98%;
+    padding: 0px 20px 20px 0px;
+    overflow: hidden;
+}
+.amount{
+	float: left;
+	width: 30%;
+	height: 100%;
+	background: url(../images/border-btn_01.png) no-repeat;
+	background-size:100% 100%;;
+	-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/border-btn_01.png',sizingMethod='scale');
+ 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/border-btn_01.png',sizingMethod='scale');
+}
+.amount .amountButton{   
+    width: 98%;
+    height: 124px;
+    padding: 28px 30px 10px 30px;
+    overflow: hidden;
+}
+.amount .amountButton>.active{
+	background: url(../images/zhibiao_bg_sel.png) no-repeat;
+}
+.amount .amountButton>div{
+    float: left;
+    width: 28%;
+    height: 33%;
+    color: white;
+    padding: 11px;
+    font-size: 13px;
+    background: url(../images/zhibiao_bg.png) no-repeat;
+    cursor: pointer;
+}
+.amount .amountButton>div>span{display: inline-block;width: 100%;}
+.greenText{color: #00ff00;}
+.blueText{font-size: 11px;color: #00f3fb;}
+.amount .amountCharts{
+    height: 77%;
+    width: 93%;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 22px;
+    overflow: hidden;
+}
+.amount .amountCharts .achart{
+	float: left;
+	width: 46%;
+	height: 33%;
+	margin-right: 10px;
+}
+.amount .amountCharts .achart:nth-child(2n){
+	margin-left: 20px;
+	margin-right: 0px;
+}
+.amount .amountCharts .achart:nth-child(5){
+	margin: 0;
+	width: 100%;
+}
+.amount .amountCharts .achart>label{
+	display: inline-block;
+	width: 100%;
+	height:30px;
+	color:white;
+	text-align: center;
+	line-height: 30px;
+	background-image:url(../images/title-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/title-bg.png',sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/title-bg.png',sizingMethod='scale');
+}
+.amount .amountCharts .achart:nth-child(5)>label{
+	display: inline-block;
+	width: 50%;
+	height:30px;
+	color:white;
+	text-align: center;
+	line-height: 30px;
+	background: url(../images/title-bg.png)no-repeat;
+}
+.amount .amountCharts .achart>.charts{
+    width: 100%;
+    height: calc(100% - 30px);
+}
+.content{
+	float: left;
+	margin-left: 10px;
+	margin-top: 7px;
+	width: 69%;
+	height: 99%;
+	overflow: hidden;
+}
+.contexTop{
+	float: left;
+    width: 67%;
+    height: 68%;
+    background: url(../images/charts_bg_sel.png) no-repeat;
+    background-size:100% 100%;;
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/charts_bg_sel.png',sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/charts_bg_sel.png',sizingMethod='scale');
+    overflow: hidden;
+}
+.contexTop>label{display: inline-block;width: 100%;height: 40px;line-height: 40px;padding-left: 40px;color:white;}
+.contexTop>.charts{
+	width: 96%;
+	height: 94%;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.contexTop>.charts>div{
+	float: left;
+}
+.ybp{width: 40%; height: 35%;}
+.sj{width: 53%; height: 31%; overflow: hidden;  padding: 20px;color:white}
+.zxt{width: 41%;height: 60%;}
+.bg{width: 55%; height: 65%; margin-top: -28px; padding-right: 20px;font-size: 13px;color: white;}
+.sj>div{float: left;width: 33%;height: 33%;overflow: hidden;}
+.sj>div>img{float:left;width: 30px;margin-top: 5px;margin-right: 10px;}
+.sj>div>div{float:left;padding-left:10px;width: 60%;height: 100%;background: url(../images/blue.png) no-repeat;overflow: hidden;font-size: 13px;}
+.sj>div>.green{background: url(../images/green.png) no-repeat;}
+.sj>div>.purple{background: url(../images/purple.png) no-repeat;}
+.sj>div>div>span{display: inline-block;width: 100%;}
+.bg td{padding: 10px;text-align: center;}
+.bg thead{
+	background: url(../images/list_head_bg.png) no-repeat;
+	background-size:100% 100%;;
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/list_head_bg.png',sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/list_head_bg.png',sizingMethod='scale');
+}
+.bg tbody{
+	background: url(../images/list_bg.png);
+	background-size:100% 100%;;
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/list_bg.png',sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/list_bg.png',sizingMethod='scale');
+}
+.page{height: 30px;width: 100%;overflow: hidden;}
+.page>div{float: left;width: 40px;height: 100%;margin-left: 12px;cursor: pointer;}
+.page>.next{margin-left: 43px;}
+.number{color: #74fefc; font-family: fantasy; font-style: normal;font-size: 20px;}
+.contextChart{
+    float: left;
+    width: 33%;
+    height: 289px;
+    background: url(../images/charts_bg.png) no-repeat;
+    background-size:100% 100%;;
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/charts_bg.png',sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/charts_bg.png',sizingMethod='scale');
+}
+.contextChart>label{
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+}
+.contextChart>.charts{
+	width: 100%;
+	height: 85%;
+}
+
